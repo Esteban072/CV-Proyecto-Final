@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <script src="js/function.js"></script>
+</head>
+
+<body>
+
+    <div class="perfil_padre">
+        <div class="perfil_hijo">
+            <h1>Curriculum Vitae</h1>
+            <img src="perfil.jpg" alt="perfil">
+            <h2>Hector Martines de Olivera</h2>
+        </div>
+    </div>
+
+    <div id="barra1"></div>
+
+    <div class="info_padre">
+
+        <div class="info_hijo">
+            <div class="lista_padre">
+                <details>
+                    <summary id="desplegable">Datos personales</summary>
+                    <dl class="lista_hija">
+                        <br>
+                        <dt>Edad:</dt>
+                        <dd>34</dd>
+                        <dt>Direccion:</dt>
+                        <dd>Los Antares 5687 Apostoles, Misiones</dd>
+                        <dt>Nacionalidad:</dt>
+                        <dd>Argentina</dd>
+                        <dt>Telefono:</dt>
+                        <dd>+5493758936478</dd>
+                        <dt>Correo electronico:</dt>
+                        <dd>Hector044Oliv@gmail.com</dd>
+                    </dl>
+            </div>
+            </details>
+        </div>
+
+        <div class="tabla">
+            <div style="flex-grow: 1" class="tab">
+                <button class="tablinks" onclick="openCity(event, 'Estudios')">Estudios</button>
+                <button class="tablinks" onclick="openCity(event, 'Experiencias Laborales')">Experiencias
+                    Laborales</button>
+                <button class="tablinks"
+                    onclick="openCity(event, 'Habilidades/Conocimientos')">Habilidades/Conocimientos</button>
+            </div>
+            <div>
+                <div id="Estudios" class="tabcontent">
+                    <Ul>
+                        <li>
+                            <b>Escuela Normal Superior Mariano Moreno</b>
+                            <p>Fecha de inicio: 03/2002</p>
+                            <p>Fecha de finalizacion: 12/2007</p>
+                            <p>Titulo: Bachillerato en Economia y Administracion</p>
+                        </li>
+                        <li>
+                            <b>Universidad Nacional de Misiones</b>
+                            <p>Fecha de inicio: 02/2008</p>
+                            <p>Fecha de finalizacion: 01/2015</p>
+                            <p>Titulo: Ingenieria en sistemas informaticos</p>
+                        </li>
+                    </Ul>
+                </div>
+                <div id="Experiencias Laborales" class="tabcontent">
+                    <ul>
+                        <li>
+                            <b>Fullstack Developer - AT&T Mobile</b>
+                            <p>Fecha de inicio: 03/2015</p>
+                            <p>Fecha de finalizacion: 07/2018</p>
+                        </li>
+                        <li>
+                            <b>UX/UI Designer - Naranja X</b>
+                            <p>Fecha de inicio: 02/2019</p>
+                            <p>Fecha de finalizacion: 01/2023</p>
+                        </li>
+                    </ul>
+                </div>
+                <div id="Habilidades/Conocimientos" class="tabcontent">
+                    <ul>
+                        <li>
+                            <B>Sistemas operativos:</B>
+                            <p>Linux Mint - Ubuntu - Debian - Windows</p>
+                        </li>
+                        <li>
+                            <b>Lenguajes:</b>
+                            <p>JavaScript - Node.js - PHP - Python - Ruby on Rails - Angular - Git</p>
+                        </li>
+                        <p>Busco poner en práctica todas mis habilidades y conocimientos adquiridos a través del tiempo
+                            y de los estudios y cursos que he realizado, y seguir capacitándome para convertirme en un
+                            profesional en el área que desarrollo.
+                            Me considero proactivo, enérgico, rápido, de buena actitud y comportamiento, capaz de
+                            trabajar en equipo y cumplir con los objetivos designados.
+                            Quiero tener la oportunidad de demostrar que soy capaz de aprender y lograr mis objetivos y
+                            los de mi equipo, y crecer como persona y trabajador, espero puedan darme la oportunidad.
+                            Mi objetivo principal es contribuir al logro de las tareas de la
+                            empresa, realizando las actividades a desempeñar de manera eficaz
+                            en el puesto para el cual sea asignado, buscando también un
+                            desarrollo tanto personal como profesional y siempre que sea posible
+                            demostrar mi capacidad en el ambito laboral.
+                        </p>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>
